@@ -23,3 +23,8 @@ let b1 = 9007199254740991n;
 console.log(b1);
 console.log("type of b1", typeof b1);
 
+
+
+let c1 = 90n;
+console.log(c1);
+console.log(typeof c1);
