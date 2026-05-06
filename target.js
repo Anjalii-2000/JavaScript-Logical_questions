@@ -1,17 +1,16 @@
-let a = [12, 45, 87, 90, 89, 34, 56];
+let a = [12, 45, 87, 90, 89, 89, 34, 56];
 
 let target = 89;
+function getTarget() {
+    let found = false;
 
-let found = false;
-
-for (let i = 0; i < a.length; i++) {
-    if (a[i] === target) {
-        found = true;
-        console.log("Element found at index:", i);
-        break;
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] === target) {
+            found = true;
+            return i;
+        } 
     }
-}
 
-if (!found) {
-    console.log("Element not found");
+    return -1; // if not found
 }
+console.log(getTarget(a));
