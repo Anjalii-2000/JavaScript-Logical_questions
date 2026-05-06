@@ -5,9 +5,9 @@ function findDuplicate(duplicate) {
     let dup = {};
 
     for (let i = 0; i < duplicate.length; i++) {
-        if (!dup[duplicate[i]] ) {
-            even.push(duplicate[i]);  
-            dup[duplicate[i]] = true; 
+        if (!dup[duplicate[i]]) {
+            even.push(duplicate[i]);
+            dup[duplicate[i]] = true;
         }
     }
 
