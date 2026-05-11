@@ -11,3 +11,4 @@ function calc(a, b, callback) {
     return callback(a, b);
 }
 console.log(calc( 12, 22, mul));
+console.log(calc( 12, 22, mul));
