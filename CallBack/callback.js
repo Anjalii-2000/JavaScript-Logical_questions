@@ -1,0 +1,13 @@
+function add(a, b) {
+    return a + b;
+}
+function sub(a, b) {
+    return a - b;
+}
+function mul(a, b) {
+    return a * b;
+}
+function calc(a, b, callback) {
+    return callback(a, b);
+}
+console.log(calc( 12, 22, mul));
